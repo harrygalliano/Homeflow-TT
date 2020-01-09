@@ -1,2 +1,3 @@
 class Cypher 
+
 end 
