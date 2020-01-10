@@ -11,5 +11,12 @@ describe Cypher do
         end 
     end 
 
+    describe "num log should take the numbers and form an array" do 
+        it "takes our string and forms an array of numbers" do 
+            expect(@cypher.convert).to eq("jgnnq")
+        end
+    end
+
+
 
   end
