@@ -18,12 +18,11 @@ class Cypher
             if (@index + @num) < 26
                 @result << NUMBER_KEY[@index + @num]
               else
-                @result << NUMBER_KEY[@index + @num - 26] end
-             end 
-             @result
-             end
-             
-    private 
+                @result << NUMBER_KEY[@index + @num - 26] 
+            end
+        end 
+         p @result
+     end
 
     LETTER_KEY = {"a"=>0,"b"=> 1,"c"=> 2,"d"=> 3,
     "e"=> 4, "f"=> 5, "g"=> 6,"h"=> 7,"i"=> 8,
