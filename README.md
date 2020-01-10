@@ -4,6 +4,12 @@
 
 
 ## Using the application 
+ * cd to a directory that you would like to store the code in.
+ * Enter: git clone **[git@github.com]**
+ **(mailto:git@github.com)harrygalliano/Homeflow-TT.git)** in the command line
+ * Run: **bundle install.**
+ * Run : **rspec** to see test outputs and test coverage.
+ * Enter: **ruby app.rb** and follow the instructions to use the Caeser Cypher.
 
 
 
